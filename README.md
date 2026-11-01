@@ -49,3 +49,9 @@ This public content repository is maintained at [HoneyBadgerians/lumenveil-conte
 ## Interior detail editions: catalog 2.4.0 / revision 5
 
 The v4 feed now points to the immutable `v4/packs/catalog-2.4.0.json`. Forty-two Master boards add interior space without changing their original silhouette boundary pixels. Clues of length 18+ decrease from 438 to 146. Every changed puzzle has a new ID and `replaces` link, solves without guessing, and retains its prior edition for saved progress. There are still 126 active challenges in 17 rooms (43 at 30×30), with 375 total IDs. All 333 prior IDs and artwork are preserved; earlier packs and older feeds are unchanged.
+
+## Scene editions: catalog 2.5.0 / revision 6
+
+Eight active slots receive original action-led silhouettes: a breathing whale, cat on a book, otter holding a shell, letter-carrying bird, developer at a laptop, windblown umbrella, trotting fox and cyclist. Their combined filled cells decrease from 1,807 to 1,516 (16%). Fill ratios range from 29% to 49%; all eight solve without guessing in 3–9 line-deduction rounds.
+
+`v4/manifest.json` points to the immutable `v4/packs/catalog-2.5.0.json`. There are still 126 active challenges, including 43 Master puzzles, and now 383 total records. All 375 earlier IDs and artwork remain unchanged, with `replaces` links retaining access to existing saves. No app-store update is required for clients already using the v4 feed.
