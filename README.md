@@ -1,6 +1,6 @@
-# Lumenveil content delivery
+# Growpix content delivery
 
-Public JSON delivery for Lumenveil. Application code remains in its separate private repository.
+Public JSON delivery for Growpix. Application code remains in its separate private repository.
 
 - `manifest.json`: catalog revision, HTTPS pack URL and SHA-256 checksum.
 - `packs/catalog-1.2.0.json`: initial catalog of 120 original nonogram stages in 12 rooms.
@@ -44,7 +44,7 @@ The publication workflow `.github/workflows/notify-content.yml` requests a relea
 
 ## Organization ownership
 
-This public content repository is maintained at [HoneyBadgerians/lumenveil-content](https://github.com/HoneyBadgerians/lumenveil-content). The application source remains in the separate private `HoneyBadgerians/lumenveil` repository. Published pack bytes and SHA-256 checksums are unchanged by the transfer; manifest pack URLs now use the organization owner.
+This public content repository is maintained at [HoneyBadgerians/growpix-content](https://github.com/HoneyBadgerians/growpix-content). The application source remains in the separate private `HoneyBadgerians/growpix` repository. Published pack bytes and SHA-256 checksums are unchanged by the transfer; manifest pack URLs now use the organization owner.
 
 ## Interior detail editions: catalog 2.4.0 / revision 5
 
