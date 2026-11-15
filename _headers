@@ -1,0 +1,4 @@
+/v4/manifest.json
+  Cache-Control: public, max-age=300
+/v4/packs/*
+  Cache-Control: public, max-age=31536000, immutable

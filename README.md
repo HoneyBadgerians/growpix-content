@@ -55,3 +55,7 @@ The v4 feed now points to the immutable `v4/packs/catalog-2.4.0.json`. Forty-two
 Eight active slots receive original action-led silhouettes: a breathing whale, cat on a book, otter holding a shell, letter-carrying bird, developer at a laptop, windblown umbrella, trotting fox and cyclist. Their combined filled cells decrease from 1,807 to 1,516 (16%). Fill ratios range from 29% to 49%; all eight solve without guessing in 3–9 line-deduction rounds.
 
 `v4/manifest.json` points to the immutable `v4/packs/catalog-2.5.0.json`. There are still 126 active challenges, including 43 Master puzzles, and now 383 total records. All 375 earlier IDs and artwork remain unchanged, with `replaces` links retaining access to existing saves. No app-store update is required for clients already using the v4 feed.
+
+## Hosting
+
+The feed is served from Cloudflare Pages (project `nonoglobe-content`) at `https://nonoglobe-content.pages.dev/v4/manifest.json`. Pages serves a copy of `v4/` plus the `_headers` file in this repo's root. See `docs/CONTENT.md` in the app repo for the release procedure. The old `raw.githubusercontent.com` addresses are not used by the app any more.
